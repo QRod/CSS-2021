@@ -1,0 +1,1 @@
+[href]{color:green}[href="#"]{color:red}[href~=verde]{color:green}[href|=verde]{color:blue}[href^=rojo]{color:purple}[href$=rojo]{color:gray}[href*=rojo]{color:brown}h1+h2{color:red}h1~h3{color:green}p span{color:red}p>span{color:blue}

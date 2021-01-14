@@ -1,0 +1,98 @@
+/* TIPOS DE SELECTORES */
+
+
+/* SELECTORES DE ETIQUETA */
+/* p{
+    color: red;
+}
+
+h1{
+    color: blue;
+}
+
+/* SELECTORES DE CLASE */
+
+/* .title2{ 
+    color: green;
+}
+
+.text2{ 
+    color: purple;
+} */
+
+/* SELECTORES DE ID */  
+
+/* #title3{
+    color: sandybrown;
+}
+
+#text3{
+    color: seagreen;
+} */ 
+
+/* SELECTORES UNIVERSALES */
+/* {
+    color: red;
+} */
+
+/* SELECTORES DE ARTIBUTO */
+
+/* Selección de atributo */
+[href]{
+    color: green;
+}
+
+/* Selección de atributo y valor */
+[href="#"]{
+    color: red;
+}
+
+/* Selección de atributo y valor al menos una vez */
+[href~="verde"]{
+    color: green;    
+}
+
+/* Selección de atributo y exactamente ese valor, o bien que dicho valor sea el inicial*/
+[href|="verde"]{
+    color: blue;    
+}
+
+/* Selección de atributo y comiencen con el valor*/
+[href^="rojo"]{
+    color: purple;    
+}
+
+/* Selección de atributo y terminen con el valor*/
+[href$="rojo"]{
+    color: gray;    
+}
+
+/* Selección de atributo y contengan el valor*/
+[href*="rojo"]{
+    color: brown;    
+}
+
+/* Selectores Combinadores */
+
+/* Selector de hermano adyacente */
+/* Si se cumple la condición de que exista un h2 debajo de un h1 se aplica el formato solo al h2 que se encuentra debajo */
+h1 + h2{
+    color:red;
+}
+
+/* Selector de hermano general */
+/* El formato se aplica a todos los h3 que se encuentren debajo de un h1 */
+h1 ~ h3{
+    color:green;
+}
+
+/* Selectores descencentes */
+
+p span{
+    color: red;
+}
+
+/* selector de hijo directo */
+p > span{
+    color: blue;
+}
